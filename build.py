@@ -850,6 +850,14 @@ def p_home():
 <section class="section alt"><div class="wrap">
 <div class="section-head"><h2>Nieuws</h2><a class="btn-ghost" href="/nieuws/">Alles bekijken {IC['arrow']}</a></div>
 <div class="grid">{news_cards}</div>
+</div></section>
+<section class="section"><div class="wrap">
+<div class="callout" style="max-width:760px;margin:0 auto;padding:26px 30px">
+<p style="text-transform:uppercase;letter-spacing:.04em;font-size:.75rem;color:var(--sub);margin:0 0 8px"><strong>Aanbevolen</strong></p>
+<h2 style="margin:0 0 10px">Persoonlijke begeleiding bij een bedrijfsverkoop</h2>
+<p>{esc(PARTNERS[0]["beschrijving"])}</p>
+<p style="margin-top:14px"><a class="btn-ghost" href="{PARTNERS[0]["url"]}" target="_blank" rel="noopener">Naar {esc(PARTNERS[0]["anchor"])} {IC['arrow']}</a></p>
+</div>
 </div></section>"""
     write(path,h+footer())
 
