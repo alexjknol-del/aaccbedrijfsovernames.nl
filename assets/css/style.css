@@ -52,6 +52,8 @@ p{margin:0 0 1em} a{color:inherit} img{max-width:100%;display:block}
 .foot h4{color:#fff;font-size:.82rem;text-transform:uppercase;letter-spacing:.04em;margin-bottom:10px}
 .foot a{display:block;text-decoration:none;color:#C9CBD1;font-size:.88rem;padding:3px 0}
 .foot-bottom{border-top:1px solid #33353D;margin-top:28px;padding-top:16px;display:flex;justify-content:space-between;font-size:.8rem;color:#8B909C;flex-wrap:wrap;gap:8px}
+.foot-bottom a{display:inline;padding:0;color:#8B909C}
+.foot-bottom a:hover{color:#fff}
 @media (max-width:760px){
   .nav{position:relative}
   .menu-toggle{display:block}
