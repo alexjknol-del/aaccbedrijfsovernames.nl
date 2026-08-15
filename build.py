@@ -490,7 +490,7 @@ GUIDES=[
 NEWS=[
  {
   "slug": "wanneer-is-het-juiste-moment-om-te-verkopen",
-  "titel": "Wanneer is het juiste moment om je bedrijf te verkopen?",
+  "titel": "Wanneer is het juiste moment om een bedrijf te verkopen?",
   "cat": "Strategie",
   "datum": "2026-01-14",
   "lees": 4,
@@ -632,7 +632,7 @@ NEWS=[
  },
  {
   "slug": "overdracht-binnen-de-familie",
-  "titel": "Overdracht binnen de familie: waar moet je op letten?",
+  "titel": "Overdracht binnen de familie: de belangrijkste aandachtspunten",
   "cat": "Praktijk",
   "datum": "2026-02-25",
   "lees": 5,
@@ -835,13 +835,13 @@ def topic(s): return next(x for x in TOPICS if x["slug"]==s)
 def p_home():
     path="/"
     ld=[{"@context":"https://schema.org","@type":"WebSite","@id":BASE+"/","url":BASE+"/","name":SITE,"inLanguage":"nl-NL"}]
-    h=head(SITE+" | "+"Onafhankelijke kennisgids over bedrijfsovername en bedrijfsverkoop","AACC Bedrijfsovernames is een onafhankelijke kennisgids over bedrijfsovername en bedrijfsverkoop voor mkb-ondernemers. Op deze site vind je feitelijke, praktische informatie over onderwerpen als bedrijfswaardering, due diligence en het overnameproces, zonder verkooppraatjes of persoonlijk advies.",path,ld)
+    h=head(SITE+" | "+"Onafhankelijke kennisgids over bedrijfsovername en bedrijfsverkoop","AACC Bedrijfsovernames is een onafhankelijke kennisgids over bedrijfsovername en bedrijfsverkoop voor mkb-ondernemers. Deze site behandelt feitelijke, praktische informatie over onderwerpen als bedrijfswaardering, due diligence en het overnameproces, zonder verkooppraatjes of persoonlijk advies.",path,ld)
     cards="".join(f'<a class="card" href="/onderwerpen/{t["slug"]}/"><div class="card-ic">{mark("#1F3A34","#C9A66B")}</div><h3>{esc(t["naam"])}</h3><p>{esc(t["resume"][:110])}{"…" if len(t["resume"])>110 else ""}</p></a>' for t in TOPICS[:6])
     news_cards="".join(f'<a class="ncard" href="/nieuws/{a["slug"]}/"><span class="eyebrow">{esc(a["cat"])}</span><h3>{esc(a["titel"])}</h3><p>{esc(a["resume"])}</p><span class="meta">{a["datum"]} &middot; {a["lees"]} min leestijd</span></a>' for a in NEWS[:3])
     h+=f"""<section class="hero"><div class="wrap">
 <span class="eyebrow">{IC['scale']}Onafhankelijke kennisgids over bedrijfsovername en bedrijfsverkoop</span>
 <h1>Bedrijfsovername en bedrijfsverkoop, stap voor stap uitgelegd</h1>
-<p class="lead">AACC Bedrijfsovernames is een onafhankelijke kennisgids over bedrijfsovername en bedrijfsverkoop voor mkb-ondernemers. Op deze site vind je feitelijke, praktische informatie over onderwerpen als bedrijfswaardering, due diligence en het overnameproces, zonder verkooppraatjes of persoonlijk advies.</p>
+<p class="lead">AACC Bedrijfsovernames is een onafhankelijke kennisgids over bedrijfsovername en bedrijfsverkoop voor mkb-ondernemers. Deze site behandelt feitelijke, praktische informatie over onderwerpen als bedrijfswaardering, due diligence en het overnameproces, zonder verkooppraatjes of persoonlijk advies.</p>
 </div></section>
 <section class="section"><div class="wrap">
 <div class="section-head"><h2>{esc('Onderwerpen')}</h2><a class="btn-ghost" href="/onderwerpen/">Alles bekijken {IC['arrow']}</a></div>
