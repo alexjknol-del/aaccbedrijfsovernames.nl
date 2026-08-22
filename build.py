@@ -823,6 +823,18 @@ NEWS=[
 
 PARTNERS=[
  {
+  "naam": "LeadToday",
+  "beschrijving": "LeadToday is een Nederlands online marketing bureau dat mkb-bedrijven ondersteunt met leadgeneratie, SEO en online adverteren, met specifieke dienstverlening per regio en branche.",
+  "url": "https://www.leadtoday.nl/online-marketing-bureau-rotterdam",
+  "anchor": "online marketing bureau rotterdam"
+ },
+ {
+  "naam": "FinanceFactor",
+  "beschrijving": "FinanceFactor is gespecialiseerd in executive search binnen finance, en bemiddelt tussen bedrijven en ervaren financiële professionals voor vaste en interim posities.",
+  "url": "https://www.financefactor.nl/",
+  "anchor": "executive search finance"
+ },
+ {
   "naam": "OvernameAdvies",
   "beschrijving": "OvernameAdvies is een Nederlands overnameadviesbureau dat mkb-ondernemers begeleidt bij de verkoop van hun bedrijf. Het bureau heeft meer dan 1000 bedrijfsoverdrachten begeleid en biedt verschillende vormen van dienstverlening, van het zelfstandige traject Go Live tot volledig begeleide verkoopbegeleiding, met aandacht voor een persoonlijke en discrete aanpak.",
   "url": "https://www.overnameadvies.nl/",
