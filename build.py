@@ -839,6 +839,48 @@ PARTNERS=[
   "beschrijving": "OvernameAdvies is een Nederlands overnameadviesbureau dat mkb-ondernemers begeleidt bij de verkoop van hun bedrijf. Het bureau heeft meer dan 1000 bedrijfsoverdrachten begeleid en biedt verschillende vormen van dienstverlening, van het zelfstandige traject Go Live tot volledig begeleide verkoopbegeleiding, met aandacht voor een persoonlijke en discrete aanpak.",
   "url": "https://www.overnameadvies.nl/",
   "anchor": "overnameadvies.nl"
+ },
+ {
+  "naam": "Ondernemersklankbord",
+  "beschrijving": "Ondernemersklankbord begeleidt ondernemers met advies van ervaren vakgenoten, onder meer bij het kopen van een bedrijf.",
+  "url": "https://ondernemersklankbord.nl/bedrijf-kopen/",
+  "anchor": "bedrijf kopen"
+ },
+ {
+  "naam": "Lindenhaeghe",
+  "beschrijving": "Lindenhaeghe verzorgt opleidingen in de financiele sector, waaronder de basisopleiding Wft.",
+  "url": "https://lindenhaeghe.nl/wft/basis",
+  "anchor": "Wft Basis"
+ },
+ {
+  "naam": "CS Opleidingen",
+  "beschrijving": "CS Opleidingen biedt de opleiding casemanager regie op verzuim (crov) aan voor professionals in verzuimbegeleiding.",
+  "url": "https://cs-opleidingen.nl/opleidingen/casemanager-regie-op-verzuim-crov",
+  "anchor": "crov opleiding"
+ },
+ {
+  "naam": "Elan Notarissen",
+  "beschrijving": "Elan Notarissen heeft meerdere vestigingen in Nederland, waaronder een notaris in Harlingen.",
+  "url": "https://elannotarissen.nl/vestigingen/erica-heeres-harlingen",
+  "anchor": "Notaris Harlingen"
+ },
+ {
+  "naam": "Goodzo",
+  "beschrijving": "Goodzo bemiddelt in consultancy en detachering, onder meer voor bedrijven die een Mendix developer willen inhuren.",
+  "url": "https://www.goodzo.nl/consultancy-en-detachering/mendix-developer",
+  "anchor": "mendix developer inhuren"
+ },
+ {
+  "naam": "Axento",
+  "beschrijving": "Axento legt uit wat vermogensbeheer inhoudt en helpt particulieren en ondernemers op weg bij het beheren van vermogen.",
+  "url": "https://axento.nl/vermogensbeheer/wat-is-vermogensbeheer/",
+  "anchor": "wat is vermogensbeheer?"
+ },
+ {
+  "naam": "Care-IS",
+  "beschrijving": "Care-IS vergelijkt vermogensbeheerders in Nederland, waaronder Ambassador vermogensbeheer.",
+  "url": "https://care-is.nl/vermogensbeheer/vergelijken/ambassador-vermogensbeheer/",
+  "anchor": "Ambassador vermogensbeheer"
  }
 ]
 
