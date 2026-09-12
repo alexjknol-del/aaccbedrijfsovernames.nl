@@ -881,6 +881,12 @@ PARTNERS=[
   "beschrijving": "Care-IS vergelijkt vermogensbeheerders in Nederland, waaronder Ambassador vermogensbeheer.",
   "url": "https://care-is.nl/vermogensbeheer/vergelijken/ambassador-vermogensbeheer/",
   "anchor": "Ambassador vermogensbeheer"
+ },
+ {
+  "naam": "Intermax",
+  "beschrijving": "Intermax levert cloudoplossingen vanuit Nederland, met een private omgeving waarin de data in Nederland blijft en de omgeving doorlopend wordt gemonitord.",
+  "url": "https://www.intermax.nl/oplossingen/cloudoplossingen/private-nederlandse-cloud/",
+  "anchor": "nederlandse cloud"
  }
 ]
 
