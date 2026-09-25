@@ -887,6 +887,18 @@ PARTNERS=[
   "beschrijving": "Intermax levert cloudoplossingen vanuit Nederland, met een private omgeving waarin de data in Nederland blijft en de omgeving doorlopend wordt gemonitord.",
   "url": "https://www.intermax.nl/oplossingen/cloudoplossingen/private-nederlandse-cloud/",
   "anchor": "nederlandse cloud"
+ },
+ {
+  "naam": "Rep en Roer",
+  "beschrijving": "Rep en Roer uit Utrecht schrijft afscheidsmusicals voor basisscholen. Een pakket bevat het script als bewerkbaar bestand, de muziek met meezingversies, een handboek voor de leerkracht en dansvideo's.",
+  "url": "https://www.repenroer.nl",
+  "anchor": "schoolmusicals groep 8"
+ },
+ {
+  "naam": "Musicals Groep 8",
+  "beschrijving": "Overzicht van de eindmusicals van Rep en Roer, met per musical het verhaal, de rollen en de liedjes, en levering binnen vijf werkdagen.",
+  "url": "https://musicalsgroep8.nl/",
+  "anchor": "musical groep 8"
  }
 ]
 
