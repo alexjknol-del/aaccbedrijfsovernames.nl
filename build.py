@@ -133,6 +133,7 @@ def blocks(bs):
         elif b[0]=="h2": o.append(f"<h2>{esc(b[1])}</h2>")
         elif b[0]=="ul": o.append("<ul>"+"".join(f"<li>{esc(x)}</li>" for x in b[1])+"</ul>")
         elif b[0]=="callout": o.append(f'<div class="callout"><p>{esc(b[1])}</p></div>')
+        elif b[0]=="plink": o.append(f"<p>{b[1]}</p>")
     return "".join(o)
 
 def byline():
@@ -818,7 +819,24 @@ NEWS=[
     "Verkopers die vroeg in het proces open zijn over risico's en aandachtspunten, in plaats van deze pas tijdens due diligence prijs te geven, bouwen doorgaans meer vertrouwen op bij kopers. Dit kan het verschil maken tussen een soepel verlopende deal en een proces dat vastloopt op wantrouwen."
    ]
   ]
- }
+ },
+ {"slug": "voorraad-inventariseren-bij-bedrijfsovername", "titel": "Voorraad inventariseren bij een bedrijfsovername", "cat": "Praktijk", "datum": "2026-09-15", "lees": 3, "resume": "Bij de overname van een handels- of productiebedrijf is de voorraad vaak een grote post. Waarom een betrouwbare telling telt en hoe barcode etiketten daarbij helpen.", "body": [
+  ("p", "Bij de overname van een groothandel, webwinkel of productiebedrijf staat de voorraad vaak als grote post op de balans. De koopprijs gaat uit van een bepaalde waarde, maar die waarde is alleen zo goed als de telling waarop hij rust. Een voorraad die op papier groter is dan op de plank, gaat rechtstreeks ten koste van de koper."),
+  ("h2", "Waarom de voorraad in de overeenkomst terugkomt"),
+  ("p", "In veel overnames wordt de voorraad op de overdrachtsdatum apart vastgesteld. De koopprijs wordt dan achteraf bijgesteld als de werkelijke voorraad afwijkt van wat is afgesproken. Dat maakt de telling op die dag een onderdeel van de onderhandeling. Hoe nauwkeuriger de telling, hoe minder ruimte voor discussie achteraf."),
+  ("p", "Naast de hoeveelheid speelt de staat van de voorraad mee. Incourante artikelen, beschadigde goederen en producten waarvan de houdbaarheid is verlopen, zijn minder waard dan de inkoopprijs doet vermoeden. Een telling die dat onderscheid niet maakt, geeft een te rooskleurig beeld."),
+  ("h2", "Wat een koper wil zien"),
+  ("ul", ["Een overzicht van de voorraad per artikel en per locatie.", "De uitkomst van eerdere tellingen en de verschillen die daarbij zijn gevonden.", "De manier waarop voorraadmutaties worden vastgelegd.", "De aanpak van incourante en beschadigde goederen."]),
+  ("p", "Grote en terugkerende verschillen tussen systeem en werkelijkheid zijn een signaal dat de administratie niet sluit. Een koper weegt dat mee in de prijs of vraagt extra garanties."),
+  ("h2", "Tellen met barcodes"),
+  ("p", "Handmatig tellen met pen en papier is foutgevoelig. Artikelnummers worden verkeerd overgeschreven, een vak wordt twee keer geteld of een stelling wordt overgeslagen. Met een vaste barcode per locatie en per artikel verandert dat. Tijdens de telling wordt eerst de locatie gescand en daarna wat er ligt. De scanner legt vast wat waar staat, zonder overtypen."),
+  ("p", "Scannen gaat bovendien sneller dan noteren. Daardoor is het haalbaar om in de periode voor de overdracht vaker te tellen, bijvoorbeeld per productgroep. Verschillen komen dan eerder aan het licht, op een moment dat ze nog uit te zoeken zijn."),
+  ("h2", "Etiketten voor stelling en vak"),
+  ("plink", "Voor de locatiecodes bestaan magnetische en zelfklevende magazijnetiketten. Magnetische etiketten passen bij stalen stellingen en zijn zonder lijmresten te verplaatsen, wat handig is als een koper na de overname de indeling wil aanpassen. Zelfklevende etiketten zijn geschikt voor vaste locaties en voor houten of kunststof stellingen. Bij <a href=\"https://www.mms-magneet.nl/barcode-etiketten/\" target=\"_blank\" rel=\"noopener\">MMS Magneetservice</a> zijn beide verkrijgbaar, kant-en-klaar gedrukt op basis van aangeleverde gegevens of om zelf te printen."),
+  ("h2", "Voorbereiding door de verkoper"),
+  ("plink", "Voor een verkoper is de voorbereiding op een verkoop een goed moment om de voorraadadministratie op orde te brengen. Een magazijn met vaste locatiecodes en een scanproces laat zien dat de bedrijfsvoering niet afhangt van één persoon. Vloermarkeringen en duidelijke etiketten maken het magazijn bovendien overzichtelijk voor wie er na de overdracht gaat werken. Over het etiketmateriaal dat bij een bepaalde stelling past, is telefonisch advies te vragen via <a href=\"https://www.mms-magneet.nl/\" target=\"_blank\" rel=\"noopener\">mms-magneet.nl</a>."),
+  ("p", "Een voorraad die klopt, maakt de waardering beter te onderbouwen en verkleint de kans op een geschil over de koopprijs na de overdracht."),
+ ]}
 ]
 
 PARTNERS=[
