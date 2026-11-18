@@ -917,6 +917,12 @@ PARTNERS=[
   "beschrijving": "Overzicht van de eindmusicals van Rep en Roer, met per musical het verhaal, de rollen en de liedjes, en levering binnen vijf werkdagen.",
   "url": "https://musicalsgroep8.nl/",
   "anchor": "musical groep 8"
+ },
+ {
+  "naam": "Triltechniek",
+  "beschrijving": "Triltechniek levert trilmotoren, trilapparaten en onderdelen voor industriële toepassingen, waaronder trillingsdempers die voorkomen dat trillingen worden doorgegeven aan vloer en constructie.",
+  "url": "https://triltechniek.eu/producten/aandrijvingen-en-complete-trilapparaten/trillingsdempers/",
+  "anchor": "trillingsdempers"
  }
 ]
 
